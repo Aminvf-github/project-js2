@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(131, 37, 110);
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: rgb(194, 194, 88);
+    height: 700px;
+    border: none;
+    border-radius: 5px;
+}
+.serch{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    .btn{
+        border: none;
+        border-radius: 5px;
+        width: 100px;
+        background-color: gray;
+        cursor: pointer;
+        height: 40px;
+    }
+}
+.gender{
+    .male{
+        height: 600px;
+        width: 300px;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    }
+    .female{
+        height: 600px;
+        width: 300px;
+        background-color: blue;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    }
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+ul{
+    list-style: none;
+}
+#box{
+    color: white;
+    padding: 10px;
+}
